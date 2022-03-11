@@ -6,7 +6,7 @@ public class App {
 
     public static void main(String[] args) {
 
-        fileReader = new FileReader("oscar-male-actors", "oscar-female-actress.csv");
+        fileReader = new FileReader("male.csv", "female.csv");
 
     }
 

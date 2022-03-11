@@ -12,7 +12,6 @@ public class FileReader {
 
     private final List<Actor> actors;
 
-
     public FileReader(String fileNameActor, String fileNameActress) {
         this.actors = readFile(fileNameActor,fileNameActress);
     }

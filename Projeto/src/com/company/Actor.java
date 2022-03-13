@@ -15,7 +15,15 @@ public class Actor {
     }
 
     public static Actor of(String line){
-        return null;
+        String[] split = line.split(";");
+        return new Actor(
+                Integer.parseInt(split[0]),
+                Integer.parseInt(split[1]),
+                Integer.parseInt(split[2]),
+                split[3],
+                split[4]
+                );
+
     }
 
     @Override
@@ -27,5 +35,25 @@ public class Actor {
                 ", name='" + name + '\'' +
                 ", movie='" + movie + '\'' +
                 '}';
+    }
+
+    public Integer getIndex() {
+        return index;
+    }
+
+    public Integer getYear() {
+        return year;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getMovie() {
+        return movie;
     }
 }

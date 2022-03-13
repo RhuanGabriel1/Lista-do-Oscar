@@ -37,10 +37,6 @@ public class Actor {
                 '}';
     }
 
-    public Integer getIndex() {
-        return index;
-    }
-
     public Integer getYear() {
         return year;
     }

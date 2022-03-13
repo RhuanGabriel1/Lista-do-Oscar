@@ -53,10 +53,4 @@ public class FileReader {
         return actress;
     }
 
-//    public List<Actor> retornaConcat(List<Actor> actor, List<Actor> actress ){
-//        List<Actor> teste;
-//        teste = actor.co
-//
-//        return
-//    }
 }
